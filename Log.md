@@ -65,3 +65,20 @@ Struggled with: switvhing to sepolia testnet in networks
 Questions: why is blockchain public and why does etherscan displays all the blockchain transactions . does it not threatens security?
 Time spent: 4 hrs
 Tomorrow: Week 2 begins — First Steps in Solidity. Open Remix IDE, build SimpleStorage contract.
+
+
+
+
+
+## Day 1 · Week 2 · 2026-07-14
+Task today: Open Remix IDE. Learn contract structure, state variables, and data types (uint, address, bool, string). Build a SimpleStorage contract on the in-browser VM.
+What I built: 
+- Wrote SimpleStorage.sol contract with state variables (myNumber, owner, isActive, myText)
+- Added setNumber and getNumber functions
+- Compiled and deployed the contract on Remix's in-browser VM
+- Tested all variables and functions directly in Remix
+Links: https://remix.ethereum.org/#lang=en&optimize&runs=200&evmVersion&version=soljson-v0.8.34+commit.80d5c536.js
+Struggled with: none
+Questions: none
+Time spent: 5 hrs
+Tomorrow: Functions & visibility — read vs write functions, view/pure, parameters and return values
