@@ -82,3 +82,37 @@ Struggled with: none
 Questions: none
 Time spent: 5 hrs
 Tomorrow: Functions & visibility — read vs write functions, view/pure, parameters and return values
+
+## Day 2 · Week 2 · 2026-07-15
+Task today: Functions & visibility. Read vs write functions, view/pure, parameters and return values. Small exercises to practice.
+What I built: 
+- Added setNumber (write), getNumber (view), addTwoNumbers (pure) to SimpleStorage
+- Added a private helper function and a public function that calls it
+- Wrote a custom isEven function as practice
+- Tested visibility rules (private function not callable from outside)
+Links: 
+Struggled with: 
+Questions: 
+Time spent: 
+Tomorrow: Mappings & structs — build an address to balance ledger, start CryptoZombies
+
+# LOG — Day 3 · Week 2 · 2026-07-20
+
+Task today:    Mappings & structs — build an address to balance ledger, start CryptoZombies alongside for interactive practice
+
+What I built:  - Added setNumber (write), getNumber (view), addTwoNumbers (pure) to SimpleStorage
+               - Added a private helper function and a public function that calls it
+               - Wrote a custom isEven function as practice
+               - Tested visibility rules (private function not callable from outside)
+
+Links:         Repo: 
+               Contract: 
+               Live demo: 
+
+Struggled with: none
+
+Questions: 
+
+Time spent: 
+
+Tomorrow:      Mappings & structs — build an address to balance ledger, start CryptoZombies
