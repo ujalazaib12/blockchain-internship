@@ -61,7 +61,43 @@ What I built: 
 - Found the transaction on Sepolia Etherscan and reviewed all fields (hash, block, gas, nonce, etc.)
 - Wrote Week 1 one-page fundamentals summary
 Links: https://sepolia.etherscan.io/tx/0x97d669a1e59f090a0972cceedb92908f409cc41eb3e8d51bb1ca96b04dffe59a
-Struggled with: switvhing to sepolia testnet in networks
-Questions: why is blockchain public and why does etherscan displays all the blockchain transactions . does it not threatens security?
-Time spent: 4 hrs
-Tomorrow: Week 2 begins — First Steps in Solidity. Open Remix IDE, build SimpleStorage contract.
+
+## Day 1 · Week 2 · 2026-07-14
+Task today: Open Remix IDE. Learn contract structure, state variables, and data types (uint, address, bool, string). Build a SimpleStorage contract on the in-browser VM.
+What I built: 
+- Wrote SimpleStorage.sol contract with state variables (myNumber, owner, isActive, myText)
+- Added setNumber and getNumber functions
+- Compiled and deployed the contract on Remix's in-browser VM
+- Tested all variables and functions directly in Remix
+Links: https://remix.ethereum.org/#lang=en&optimize&runs=200&evmVersion&version=soljson-v0.8.34+commit.80d5c536.js
+Struggled with: none
+Questions: none
+Time spent: 5 hrs
+Tomorrow: Functions & visibility — read vs write functions, view/pure, parameters and return values
+
+## Day 2 · Week 2 · 2026-07-15
+Task today: Functions & visibility. Read vs write functions, view/pure, parameters and return values. Small exercises to practice.
+What I built: 
+- Added setNumber (write), getNumber (view), addTwoNumbers (pure) to SimpleStorage
+- Added a private helper function and a public function that calls it
+- Wrote a custom isEven function as practice
+- Tested visibility rules (private function not callable from outside)
+Links: 
+Struggled with: 
+Questions: 
+Time spent: 
+Tomorrow: Mappings & structs — build an address to balance ledger, start CryptoZombies
+
+## Day 3 · Week 2 · 2026-07-16
+Task today: Mappings & structs. Build an address → balance ledger. Start CryptoZombies alongside for interactive practice.
+What I built: 
+- Built a Ledger contract using mapping(address => uint) for a simple balance system
+- Added deposit, withdraw, and getBalance functions with a require() check
+- Extended it into a mapping(address => User) using a struct with name, balance, and isActive
+- Tested with multiple fake accounts on Remix VM to confirm mappings track per-address data correctly
+- Started CryptoZombies Lesson 1
+Links: 
+Struggled with: 
+Questions: 
+Time spent: 
+Tomorrow: Access control & events — msg.sender, modifiers, require/revert/custom errors, owner pattern, emitting events
