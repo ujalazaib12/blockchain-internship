@@ -101,3 +101,18 @@ Struggled with:
 Questions: 
 Time spent: 
 Tomorrow: Access control & events — msg.sender, modifiers, require/revert/custom errors, owner pattern, emitting events
+
+
+## Day 4 · Week 2 · 2026-07-17
+Task today: Access control & events. msg.sender, modifiers, require/revert/custom errors, the owner pattern, and emitting events.
+What I built: 
+- Built AccessControl contract with an owner set in the constructor
+- Created a custom error (NotOwner) and an onlyOwner modifier
+- Added deposit (payable) and withdraw (owner-only) functions
+- Declared and emitted Deposited and Withdrawn events
+- Tested access control by attempting withdraw from a non-owner account and confirming it reverts
+Links: 
+Struggled with: 
+Questions: 
+Time spent: 
+Tomorrow: Deploy for real — build PiggyBank (deposit, owner-only withdraw, events) and deploy it on Sepolia via Remix + MetaMask
